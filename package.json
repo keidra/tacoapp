@@ -1,7 +1,6 @@
 {
   "name": "tacoapp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,12 +8,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.14.1",
-    "ejs": "^2.3.4",
-    "express": "^4.13.3",
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
     "express-ejs-layouts": "^2.0.0",
-    "pg": "^4.4.3",
+    "pg": "^4.5.3",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^3.12.2"
-  }
+    "sequelize": "^3.21.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keidra/tacoapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keidra/tacoapp/issues"
+  },
+  "homepage": "https://github.com/keidra/tacoapp#readme",
+  "description": ""
 }
